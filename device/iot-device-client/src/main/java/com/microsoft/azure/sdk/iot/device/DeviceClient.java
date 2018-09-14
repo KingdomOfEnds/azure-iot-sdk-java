@@ -78,7 +78,7 @@ public final class DeviceClient extends InternalClient implements Closeable
      * sending out messages.
      */
     @Deprecated
-    public static long SEND_PERIOD_MILLIS = 10L;
+    public static long SEND_PERIOD_MILLIS = 11L;
 
     /**
      * @deprecated as of release 1.2.27 these value is deprecated and replaced by
