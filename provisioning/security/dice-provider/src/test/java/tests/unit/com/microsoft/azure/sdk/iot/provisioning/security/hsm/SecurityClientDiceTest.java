@@ -5,6 +5,20 @@
 
 package tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm;
 
-public class SecurityClientDiceTest
+ import org.junit.Test;
+
+ import static org.junit.Assert.fail;
+
+ public class SecurityClientDiceTest
 {
+    @Test
+    public void flakeyTest()
+    {
+        double rand = Math.random() * 3 + 1; //between 4 and 1
+
+        if (rand >= 2)
+        {
+            fail("bad luck, compadre");
+        }
+    }
 }
