@@ -13,8 +13,8 @@ import com.microsoft.azure.sdk.iot.device.IotHubStatusCode;
 import com.microsoft.azure.sdk.iot.service.*;
 import com.microsoft.azure.sdk.iot.service.exceptions.IotHubException;
 import org.junit.*;
-import tests.integration.com.microsoft.azure.sdk.iot.DeviceConnectionString;
-import tests.integration.com.microsoft.azure.sdk.iot.MethodNameLoggingIntegrationTest;
+import com.microsoft.azure.sdk.iot.common.DeviceConnectionString;
+import com.microsoft.azure.sdk.iot.common.iothubservices.MethodNameLoggingIntegrationTest;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

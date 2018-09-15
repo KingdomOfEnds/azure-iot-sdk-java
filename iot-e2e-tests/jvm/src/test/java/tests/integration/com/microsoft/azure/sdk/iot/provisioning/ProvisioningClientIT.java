@@ -31,10 +31,9 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import tests.integration.com.microsoft.azure.sdk.iot.helpers.Tools;
-import tests.integration.com.microsoft.azure.sdk.iot.helpers.X509Cert;
+import com.microsoft.azure.sdk.iot.common.X509Cert;
 
 import java.io.IOException;
-import java.lang.reflect.Array;
 import java.util.*;
 
 import static com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientStatus.PROVISIONING_DEVICE_STATUS_ASSIGNED;
